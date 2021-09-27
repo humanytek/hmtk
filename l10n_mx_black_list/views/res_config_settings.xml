@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.blacklist</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div data-key="account" position="inside">
+
+                <h2 id="blacklist_h2">Black List</h2>
+                <div class="row mt16 o_settings_container" id="blacklist">
+                    <div class="col-12 col-lg-6 o_setting_box" title="Blacklist Behavior">
+                        <div class="text-muted">
+                            Configure the behavior if the blacklist.
+                        </div>
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <div class="row mt16">
+                                <label for="blacklist_sale_config" class="col-lg-3 o_light_label"/>
+                                <field name="blacklist_sale_config"/>
+                            </div>
+                            <div class="row mt16">
+                                <label for="blacklist_purchase_config" class="col-lg-3 o_light_label"/>
+                                <field name="blacklist_purchase_config"/>
+                            </div>
+                            <div class="row mt16">
+                                <label for="blacklist_invoice_config" class="col-lg-3 o_light_label"/>
+                                <field name="blacklist_invoice_config"/>
+                            </div>
+                            <div class="row mt16">
+                                <label for="blacklist_partner_config" class="col-lg-3 o_light_label"/>
+                                <field name="blacklist_partner_config"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,240 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_mx_black_list
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e-20200629\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 21:22+0000\n"
+"PO-Revision-Date: 2020-08-17 21:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_black_list
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_invoice_config__allow
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_partner_config__allow
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_purchase_config__allow
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_sale_config__allow
+#, python-format
+msgid "Allow"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model_terms:ir.ui.view,arch_db:l10n_mx_black_list.res_config_settings_view_form
+msgid "Black List"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.actions.act_window,name:l10n_mx_black_list.l10n_mx_black_list_action
+#: model:ir.ui.menu,name:l10n_mx_black_list.black_list_menu
+msgid "Black list"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model_terms:ir.ui.view,arch_db:l10n_mx_black_list.res_config_settings_view_form
+msgid "Blacklist Behavior"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model_terms:ir.ui.view,arch_db:l10n_mx_black_list.res_config_settings_view_form
+msgid "Configure the behavior if the blacklist."
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__contributor_name
+msgid "Contributor Name"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__contributor_situation
+msgid "Contributor Situation"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_invoice_config__deny
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_partner_config__deny
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_purchase_config__deny
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_sale_config__deny
+#, python-format
+msgid "Deny"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.actions.server,name:l10n_mx_black_list.get_black_list_ir_actions_server
+#: model:ir.cron,cron_name:l10n_mx_black_list.get_black_list
+#: model:ir.cron,name:l10n_mx_black_list.get_black_list
+msgid "Get Black List"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_company__blacklist_invoice_config
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_config_settings__blacklist_invoice_config
+msgid "Invoice"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_account_move
+msgid "Journal Entries"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_l10n_mx_black_list
+msgid "L10N MX Black List"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__no
+msgid "No."
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_company__blacklist_partner_config
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_config_settings__blacklist_partner_config
+msgid "Partner"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_company__blacklist_purchase_config
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_config_settings__blacklist_purchase_config
+msgid "Purchase"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_purchase_order
+msgid "Purchase Order"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_l10n_mx_black_list__name
+msgid "RFC"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_partner.py:0
+#: code:addons/l10n_mx_black_list/models/res_partner.py:0
+#, python-format
+msgid "RFC in the black list"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_company__blacklist_sale_config
+#: model:ir.model.fields,field_description:l10n_mx_black_list.field_res_config_settings__blacklist_sale_config
+msgid "Sale"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model,name:l10n_mx_black_list.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_partner.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_partner.py:0
+#: code:addons/l10n_mx_black_list/models/res_partner.py:0
+#: code:addons/l10n_mx_black_list/models/res_partner.py:0
+#, python-format
+msgid "The RFC of {} is on the black list"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: code:addons/l10n_mx_black_list/models/res_company.py:0
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_invoice_config__warning
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_partner_config__warning
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_purchase_config__warning
+#: model:ir.model.fields.selection,name:l10n_mx_black_list.selection__res_company__blacklist_sale_config__warning
+#, python-format
+msgid "Warning"
+msgstr ""
+
+#. module: l10n_mx_black_list
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_company__blacklist_invoice_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_company__blacklist_partner_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_company__blacklist_purchase_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_company__blacklist_sale_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_config_settings__blacklist_invoice_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_config_settings__blacklist_partner_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_config_settings__blacklist_purchase_config
+#: model:ir.model.fields,help:l10n_mx_black_list.field_res_config_settings__blacklist_sale_config
+msgid ""
+"allow: There is no check.\n"
+"            deny: If the VAT is on the list, the record cannot be saved.\n"
+"            warning: If the VAT is on the list, a warning is displayed."
+msgstr ""

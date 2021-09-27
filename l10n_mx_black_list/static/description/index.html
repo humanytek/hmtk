@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section>
+</section>
+<section>
+    <h2>Menús</h2>
+    <h3>Black List</h3>
+    <p>
+        Se añade un nuevo menú para ver la lista de contribuyentes pertenecientes a la lista de Posibles o Confirmados
+        dentro de los CSV propios del SAT.
+    </p>
+    <div class="oe_demo">
+        <img src="images/menu_blacklist_screenshot.png" />
+    </div>
+</section>
+<section>
+    <h2>Acciones Automáticas</h2>
+    <h3>Black List</h3>
+    <p>
+        Se crea una acción planificada para actualizar la lista de contribuyentes.
+    </p>
+    <div class="oe_demo">
+        <img src="images/action_black_list.png" />
+    </div>
+</section>
+<section>
+    <h2>Configuración</h2>
+    <h3>Black List</h3>
+    <p>
+        Se crean 4 nuevas configuraciones dentro de la contabilidad para controlar el uso de la lista negra. 
+        Esto está presente dentro de las Compras, Ventas, Facturas y Contactos; se tiene 3 niveles de control:
+        <ul>
+            <li><code>allow</code>: No ejerce acción alguna</li>
+            <li><code>deny</code>: Al momento de intentar guardar un registro, se imposibilita esta acción si el contacto está en lista negra.</li>
+            <li><code>warning</code>: Al momento de modificar un registro, se muetra una alerta si el contacto está en la lista negra.</li>
+        </ul>
+    </p>
+    <div class="oe_demo">
+        <img src="images/settings.png" />
+    </div>
+</section>
+<section>
+    <h2>Funcionalidad</h2>
+    <h3>Restringir creación de Contactos</h3>
+    <p>
+        Cuando se crea un nuevo contacto, se verifica que el RFC de este no se encuentre presente en la lista negra; en
+        caso de ser así, se bloquea la posibilidad de crearlo.
+    </p>
+    <div class="oe_demo">
+        <img src="images/function_constraint_black_list.png" />
+    </div>
+    <h3>Restricción en Facturas, Ventas y Compras</h3>
+    <p>
+        De manera analoga a la creación de contactos, cuando se crea una nueva factura, venta o compra también se
+        comprueba que el Cliente no forme parte de la lista; esto con la finalidad de detectar clientes que anteriormente no estaban en
+        dicha situación.
+    </p>
+</section>
