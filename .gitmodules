@@ -1,3 +1,8 @@
 [submodule "l10n_mx_efos"]
 	path = l10n_mx_efos
 	url = git@gitlab.com:HomebrewSoft/apps/l10n_mx/l10n_mx_efos.git
+
+[submodule "OCA/account-closing"]
+	path = OCA/account-closing
+	url = git@github.com:OCA/account-closing.git
+	branch = 16.0
